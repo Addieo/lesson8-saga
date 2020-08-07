@@ -25,4 +25,4 @@ var hw = helloWorldGenerator();
 console.log(hw.next());//hello，false代表没有结束
 console.log(hw.next());//world
 console.log(hw.next());//ending，true代表结束
-// console.log(hw.next());//undefine
+console.log(hw.next());//undefine
